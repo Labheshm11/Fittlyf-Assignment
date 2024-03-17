@@ -21,8 +21,13 @@ df = pd.DataFrame(data)
 # Print the output.
 print(df)
 
-from google.colab import files
-uploaded=files.upload()
+import streamlit as st
+
+uploaded_file = st.file_uploader("Upload a file", type=None)
+if uploaded_file is not None:
+    # Process the uploaded file
+    st.write(uploaded_file)
+
 
 """# Section 1
 
