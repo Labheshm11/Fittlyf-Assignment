@@ -1,2 +1,3 @@
-pip install pmdarima
-pmdarima
+streamlit >= 0.68.0
+pandas
+numpy
