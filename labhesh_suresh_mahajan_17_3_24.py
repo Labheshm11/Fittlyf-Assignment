@@ -148,7 +148,7 @@ from math import sqrt
 rmse=sqrt(mean_squared_error(pred,test["Actual Productivity"]))
 print(rmse)
 
-!pip install statsmodels
+
 import statsmodels.tsa.arima.model as smt
 model2 = smt.ARIMA(funnel["Actual Productivity"], order=(1, 0, 5))
 model2 = model2.fit()
