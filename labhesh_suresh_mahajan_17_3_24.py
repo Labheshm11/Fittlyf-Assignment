@@ -389,7 +389,7 @@ print(result)
 
 """# Q4"""
 
-!pip install streamlit
+
 import streamlit as st
 
 import streamlit as st
