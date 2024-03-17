@@ -125,7 +125,7 @@ train=funnel.iloc[:-30]
 test=funnel.iloc[-30:]
 print(train.shape,test.shape)
 
-!pip install statsmodels
+
 
 import statsmodels.tsa.arima.model as sm_arima
 from statsmodels.tsa.arima_model import ARIMA
