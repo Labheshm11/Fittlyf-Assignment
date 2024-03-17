@@ -109,7 +109,7 @@ ad_test(funnel["Actual Productivity"])
 
 """# The probability is less than 0.05 so we can conclude that the dataset is stationary"""
 
-pip install pmdarima
+
 from pmdarima import auto_arima
 import warnings
 warnings.filterwarnings("ignore")
